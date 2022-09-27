@@ -1,7 +1,4 @@
 package restaurant;
-
-//import static restaurant.Restaurant.id;
-
 public class Restaurant {
     Menu[] menu = new Menu[10];
     
@@ -34,14 +31,4 @@ public class Restaurant {
             }
         }
     }
-    
-//    public void mengurangiStokMakanan(Menu menu, int stok){
-//        this.menu[id].stok = menu.stok - stok;
-//    }
-//    
-//    public void menambahkanStokMakanan(Menu menu, int stok){
-//        this.menu[id].stok = menu.stok + stok;
-//    }
-//    
-
 }
